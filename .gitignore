@@ -1,0 +1,5 @@
+./quantumCNN
+./simple_mnist
+./data
+./q_test_images.npy
+./q_train_images.npy
