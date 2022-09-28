@@ -21,7 +21,7 @@ circuit.measure(0, 0)
 # Print out the circuit
 circuit.draw()
 
-# Create an object that represents Quantinuum's Syntax Checker target, "quantinuum.hqs-lt-s2-apival".
+#   Create an object that represents Quantinuum's Syntax Checker target, "quantinuum.hqs-lt-s2-apival".
 #   Note that any target you have enabled in this workspace can
 #   be used here. Azure Quantum makes it extremely easy to submit
 #   the same quantum program to different providers. 

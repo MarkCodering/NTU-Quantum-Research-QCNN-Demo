@@ -18,7 +18,7 @@ class QuanvolutionFilter(tq.QuantumModule):
         [   {'input_idx': [0], 'func': 'ry', 'wires': [0]},
             {'input_idx': [1], 'func': 'ry', 'wires': [1]},
             {'input_idx': [2], 'func': 'ry', 'wires': [2]},
-            {'input_idx': [3], 'func': 'ry', 'wires': [3]},])
+            {'input_idx': [3], 'func': 'ry', 'wires': [3]},  ])
 
         self.q_layer = tq.RandomLayer(n_ops=8, wires=list(range(self.n_wires)))
         self.measure = tq.MeasureAll(tq.PauliZ)
